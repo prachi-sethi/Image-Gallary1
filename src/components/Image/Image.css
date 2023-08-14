@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imageflex{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    width: 25%;
+    position: relative;
+    
+    
+  /* margin: 5px; */
+  text-align: center;
+    
+}
+.image{
+    width: 250px;
+    border-radius: 10px;
+    /* margin-left: 40px; */
+    /* padding: 20px; */
+
+}
+.imageflex:hover  .button{
+  
+    display: block;
+ 
+}
+.imageflex:hover  .image{
+    filter: brightness(50%);
+    /* background: rgb(0,0,0.326); */
+  
+}
+.button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: peachpuff;
+   position: absolute;
+    transition: all 1s;
+    top: 40%;
+    left: 35%;
+    display: none;
+  
+    
+}
